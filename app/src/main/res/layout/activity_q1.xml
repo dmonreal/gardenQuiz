@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Q1">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="262dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/g0"
+            android:layout_width="211dp"
+            android:layout_height="174dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/garden1"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="328dp"
+            android:layout_height="87dp"
+            android:layout_gravity="center"
+            android:background="@color/primaryColor"
+            android:fontFamily="cursive"
+            android:paddingTop="6dp"
+            android:shadowColor="@color/colorNavigation"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="15"
+            android:text="@string/q1page"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp">
+
+            <RadioButton
+                android:id="@+id/r1"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:text="@string/q1rb1" />
+
+            <RadioButton
+                android:id="@+id/r2"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:text="@string/q1rb2" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1rb3"
+                android:id="@+id/r3"/>
+
+            <RadioButton
+                android:id="@+id/r4"
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:text="@string/q1rb4" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:background="@color/buttonColor"
+                android:id="@+id/submitButton"
+                android:onClick="submitAnswer"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp">
+
+            <ImageButton
+                android:id="@+id/homeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/home"
+                android:src="@android:drawable/ic_dialog_dialer" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#26c6da</color>
+    <color name="primaryLightColor">#6ff9ff</color>
+    <color name="primaryDarkColor">#0095a8</color>
+    <color name="secondaryColor">#b39ddb</color>
+    <color name="secondaryLightColor">#e6ceff</color>
+    <color name="secondaryDarkColor">#836fa9</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="primary_material_light">#26c6da</color>
+    <color name="primary_dark_material_light">#b39ddb</color>
+    <color name="accent_material_light">#0095a8</color>
+    <color name="colorForeground">#F4F99F</color>
+    <color name="colorNavigation">#836fa9</color>
+    <color name="background_material_light">#6ff9ff</color>
+    <color name="colorBackground">#6ff9ff</color>
+    <color name="buttonColor">#e6ceff</color>
+</resources>

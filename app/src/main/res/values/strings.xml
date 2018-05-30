@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Garden Quiz</string>
+    <string name="garden_quiz">Garden Quiz</string>
+    <string name="q1">Q1</string>
+    <string name="q2">Q2</string>
+    <string name="q3">Q3</string>
+    <string name="q4">Q4</string>
+    <string name="q5">Q5</string>
+    <string name="q6">Results</string>
+    <string name="q1page">When planting, how big should the new hole be?</string>
+    <string name="q2page">Plants should be kept moist for the first year after planting</string>
+    <string name="q3page">Roses are red, Violets are blue, which flower grows 5 ft tall and is yellow too?</string>
+    <string name="q4page">Which season(s) is/are best for planting?</string>
+    <string name="q5page">It is a good idea to \'        \' your garden every day when it is hot
+        outside.</string>
+    <string name="q6page">Your Results</string>
+    <string name="q1rb1">Twice as wide as the root ball</string>
+    <string name="q1rb2">Twice as deep as the root ball</string>
+    <string name="q1rb3">Twice as wide and equal depth as the root ball</string>
+    <string name="q1rb4">The same size as the root ball</string>
+    <string name="submit">Submit</string>
+    <string name="garden1">garden1</string>
+    <string name="rbtrue">True</string>
+    <string name="rbfalse">False</string>
+    <string name="garden2">garden2</string>
+    <string name="garden3">garden3</string>
+    <string name="garden4">garden4</string>
+    <string name="garden5">garden5</string>
+    <string name="garden0">garden0</string>
+    <string name="sunflower">Sunflower</string>
+    <string name="verbena">Verbena</string>
+    <string name="daffodil">Daffodil</string>
+    <string name="daisy">Daisy</string>
+    <string name="you_scored">You scored</string>
+    <string name="points_out_of_6_possible">points out of 6 possible</string>
+    <string name="home">Home</string>
+    <string name="check">Click to see your score!</string>
+    <string name="user_Points">userPointsString</string>
+</resources>
